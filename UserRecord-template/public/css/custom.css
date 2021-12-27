@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Poppins-medium;
+    src: url("../fonts/Poppins-medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: Roboto !important;
+    background: #d62828 !important;
+    /* background: #eae2b7 !important; */
+    /* background: #002e47; */
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 9, 121, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    ); */
+}
+.navbar {
+    background-color: #002e47;
+    padding-left: 70px !important;
+}
+.navbar-nav {
+    font-size: 20px;
+}
+.header {
+    font-size: 25px;
+}
+.footer {
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    background: #002e47;
+    color: white;
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: Roboto !important;
+}
+.footer h1 {
+    font-size: 30px;
+}
+.content {
+    width: 80%;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 2rem !important;
+}
+.login-sec {
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: 800;
+}
+.loginForm {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    background-color: #002e47;
+    color: white;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+.loginForm h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button {
+    background-color: #d62828; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.button:hover {
+    background: white;
+    color: #002e47;
+    font-weight: 600;
+}
+/*** Register User ***/
+.register-container {
+    width: 60%;
+    margin: auto;
+    background-color: #002e47;
+    color: white;
+    box-shadow: 0px 10px 13px -7px #000000;
+    /* box-shadow: 0px 0px 15px -2px black; */
+    border-radius: 5px;
+}
+.reg-sec {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reg-sec h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.userList-container {
+    width: 100%;
+    margin: auto;
+    background-color: #002e47;
+    color: white;
+    box-shadow: 0px 10px 13px -7px #000000;
+    border-radius: 5px;
+}
+.userList-sec {
+    width: 90%;
+    min-height: 400px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.userList-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.table .thead-light th {
+    padding-left: 30px;
+}
+.table td,
+.table th {
+    padding-left: 32px !important;
+}
